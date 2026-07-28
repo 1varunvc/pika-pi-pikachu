@@ -1,5 +1,7 @@
 # Movie-Alert
 
+[Spider-Man: Brand New Day @ 20260730] fetch failed: HTTPSConnectionPool(host='api.scraperapi.com', port=443): Max retries exceeded with url: /?api_key=***&country_code=in&url=https%3A%2F%2Fin.bookmyshow.com%2Fmovies%2Fchennai%2Fspiderman-brand-new-day%2Fbuytickets%2FET00502600%2F20260730 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)')))
+
 Get a **Telegram** ping the moment a specific **movie + theatre + date** opens
 for booking on BookMyShow. Runs on **GitHub Actions**, triggered every ~10 min
 by **cron-job.org** — nothing to keep running on your own machine.
